@@ -18,7 +18,6 @@ body {
     flex-direction: column;
 }
 
-/* Encabezado */
 header {
     display: flex;
     align-items: center;
@@ -40,14 +39,19 @@ header {
     padding: 10px;
 }
 
-/* Título principal */
 h1 {
     text-align: center;
+    color: #ffffff;
     font-size: 2em;
     margin: 20px 0;
 }
 
-/* Contenido */
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
 .content {
     display: flex;
     justify-content: space-around;
@@ -73,17 +77,11 @@ h1 {
     margin-bottom: 15px;
 }
 
-.card h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
 .card p {
     font-size: 1em;
     color: #ffffff;
 }
 
-/* Pie de página */
 footer {
     text-align: center;
     padding: 20px;
@@ -92,9 +90,3 @@ footer {
     opacity: 80%;
     width: 100%;
 }
-
-.footer a {
-    color: #333;
-    text-decoration: none;
-}
-
