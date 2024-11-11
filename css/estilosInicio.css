@@ -1,4 +1,3 @@
-/* Estilos generales */
 * {
     box-sizing: border-box;
     list-style: none;
@@ -21,43 +20,53 @@ body {
 header {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 0.5rem;
     opacity: 80%;
-    background-color: #000000;
-    border-bottom: 1px solid #000000;
+    background-color: #333;
 }
 
 .header img {
-    width: 60px;
-    height: 60px;
+    width: 4em;
+    height: 4em;
     border-radius: 50%;
     margin-right: 20px;
 }
 
-.header nav {
+.header input {
+    justify-content: end;
+    align-items: center;
     margin-left: auto;
+}
+
+.header nav {
     padding: 10px;
 }
 
+.header button {
+    background-color: aqua;
+    color: blue;
+    border-radius: 0.25rem;
+    padding: 2px;
+}
 h1 {
     text-align: center;
     color: #ffffff;
     font-size: 2em;
-    margin: 20px 0;
+    margin: 1.25em 0;
 }
 
 h2 {
     text-align: center;
     color: #ffffff;
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
 }
 .content {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .card {
@@ -65,7 +74,6 @@ h2 {
     background-color: #333; 
     opacity: 80%;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 15px;
     padding: 15px;
     text-align: center;
@@ -85,8 +93,7 @@ h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #000000;
-    border-top: 1px solid #000000;
+    background-color: #333;
     opacity: 80%;
     width: 100%;
 }
