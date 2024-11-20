@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Inicio</title>
-    <link rel="stylesheet" href="css/estilosInicio.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <main>
-        <header class="header">
-            <a href="index.html">
-                <img src="img/icono.webp" alt="Icono">
+        <header class="cabecera">
+            <a href="">
+                <img class="cabecera__logo" src="img/icono.webp" alt="Texto">
             </a>
-            <input type="search" name="Buscar" placeholder="Buscar">
-            <nav>
-
+            <article class="cabecera__zona">
+                <form class="cabecera__formulario">
+                    <input type="text" placeholder="Buscar">
+                    <button class="formulario__boton" type="submit"> Buscar </button>
+                </form>
                 <a href="inicioSesion.html">
-                    <button>Iniciar sesión</button>
-                  </a>
-            </nav>
+                    <button class="formulario__boton__inicio">Iniciar sesión</button>
+                </a>
+            </article>
         </header>
         
         <h1>Página principal</h1>

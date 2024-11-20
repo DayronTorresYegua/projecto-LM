@@ -1,0 +1,147 @@
+/* Cosas generales */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    width: 6rem;
+}
+
+/* Header */
+
+.cabecera {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 4rem;
+
+    opacity: 80%;
+    background-color: #333;
+}
+
+.cabecera__logo {
+    width: 6rem;
+}
+
+.cabecera__zona {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.formulario__boton {
+    padding: 0.3rem 0.5rem;
+    border: solid rgb(8, 65, 46) 0.1rem;
+    color: white;
+    background: rgb(13, 105, 74) ;
+    border-radius: 0.5rem;
+    
+}
+
+.formulario__boton:hover {
+    color: rgb(13, 105, 74);
+    background: white;
+
+    transition: all ease 0.5s;
+}
+
+.formulario__boton__inicio {
+    padding: 0.3rem 0.5rem;
+    border: solid rgb(13, 105, 74) 0.1rem;
+    color: white;  
+    background: rgb(23, 189, 134);
+    border-radius: 0.5rem;
+    
+}
+
+.formulario__boton__inicio:hover {
+    color: rgb(23, 189, 134);
+    background: white;
+
+    transition: all ease 0.5s;
+}
+
+/* Cuerpo */
+
+body {
+
+    background-image: url("https://wallpapers.com/images/hd/elden-ring-fiery-gold-symbol-7j11znskboyqp9ab.jpg");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+    margin: 1.25em 0;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 0.5rem;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    width: 45%;
+    background-color: #333; 
+    opacity: 80%;
+    border-radius: 0.3rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 0.3rem;
+    object-fit: cover;
+    
+}
+
+.card p {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+/* Pie de página */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    opacity: 80%;
+    width: 100%;
+}
