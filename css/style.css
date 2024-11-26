@@ -1,5 +1,4 @@
-/* Cosas generales */
-
+/* Reset y configuración general */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -13,73 +12,13 @@ a {
 }
 
 img {
-    width: 6rem;
+    max-width: 100%;
+    height: auto;
 }
 
-/* Header */
-
-.cabecera {
-    width: 100%;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 1rem 4rem;
-
-    opacity: 80%;
-    background-color: #333;
-}
-
-.cabecera__logo {
-    width: 6rem;
-}
-
-.cabecera__zona {
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    gap: 1rem;
-}
-
-.formulario__boton {
-    padding: 0.3rem 0.5rem;
-    border: solid rgb(8, 65, 46) 0.1rem;
-    color: white;
-    background: rgb(13, 105, 74) ;
-    border-radius: 0.5rem;
-    
-}
-
-.formulario__boton:hover {
-    color: rgb(13, 105, 74);
-    background: white;
-
-    transition: all ease 0.5s;
-}
-
-.formulario__boton__inicio {
-    padding: 0.3rem 0.5rem;
-    border: solid rgb(13, 105, 74) 0.1rem;
-    color: white;  
-    background: rgb(23, 189, 134);
-    border-radius: 0.5rem;
-    
-}
-
-.formulario__boton__inicio:hover {
-    color: rgb(23, 189, 134);
-    background: white;
-
-    transition: all ease 0.5s;
-}
-
-/* Cuerpo */
-
+/* General */
 body {
-
-    background-image: url("https://wallpapers.com/images/hd/elden-ring-fiery-gold-symbol-7j11znskboyqp9ab.jpg");    
+    background-image: url("https://wallpapers.com/images/hd/elden-ring-fiery-gold-symbol-7j11znskboyqp9ab.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -88,33 +27,88 @@ body {
     flex-direction: column;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     color: #ffffff;
-    font-size: 2em;
-    margin: 1.25em 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 1.25rem 0;
 }
 
 h2 {
-    text-align: center;
-    color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
 }
-.content {
+
+/* Header */
+.cabecera {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem; /* Reduce padding para pantallas más pequeñas */
+    background-color: #333;
+    opacity: 80%;
+}
+
+.cabecera__logo {
+    width: 6rem;
+}
+
+.cabecera__zona {
+    display: flex;
+    flex-wrap: wrap; /* Permite mayor flexibilidad en pantallas pequeñas */
+    gap: 1rem;
+}
+
+/* Botones */
+.formulario__boton, 
+.formulario__boton__inicio {
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+.formulario__boton {
+    border: 0.1rem solid rgb(8, 65, 46);
+    background: rgb(13, 105, 74);
+}
+
+.formulario__boton:hover {
+    color: rgb(13, 105, 74);
+    background: white;
+}
+
+.formulario__boton__inicio {
+    border: 0.1rem solid rgb(13, 105, 74);
+    background: rgb(23, 189, 134);
+}
+
+.formulario__boton__inicio:hover {
+    color: rgb(23, 189, 134);
+    background: white;
+}
+
+/* Contenido */
+.content {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     max-width: 1200px;
     margin: auto;
+    padding: 1rem; /* Agrega espaciado para un mejor diseño */
+    gap: 1rem; /* Más flexible para diseños responsive */
 }
 
 .card {
     width: 45%;
-    background-color: #333; 
+    background-color: #333;
     opacity: 80%;
     border-radius: 0.3rem;
-    margin: 1rem;
+    margin: 1rem 0;
     padding: 1rem;
     text-align: center;
     transition: all ease 0.5s;
@@ -122,23 +116,20 @@ h2 {
 
 .card:hover {
     transform: scale(1.1);
-    transition: all ease 0.5s;
 }
 
 .card img {
     width: 100%;
     border-radius: 0.3rem;
     object-fit: cover;
-    
 }
 
 .card p {
-    font-size: 1em;
+    font-size: 1rem;
     color: #ffffff;
 }
 
 /* Pie de página */
-
 footer {
     text-align: center;
     padding: 1rem;
@@ -146,6 +137,7 @@ footer {
     opacity: 80%;
     width: 100%;
 }
+
 
 
 /*  
