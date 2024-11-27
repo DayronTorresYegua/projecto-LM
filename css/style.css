@@ -48,7 +48,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem; /* Reduce padding para pantallas más pequeñas */
+    padding: 1rem 2rem; 
     background-color: #333;
     opacity: 80%;
 }
@@ -59,8 +59,7 @@ h2 {
 
 .cabecera__zona {
     display: flex;
-    flex-wrap: wrap; /* Permite mayor flexibilidad en pantallas pequeñas */
-    gap: 1rem;
+    flex-wrap: wrap; 
 }
 
 /* Botones */
@@ -99,8 +98,8 @@ h2 {
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-    padding: 1rem; /* Agrega espaciado para un mejor diseño */
-    gap: 1rem; /* Más flexible para diseños responsive */
+    padding: 1rem; 
+    gap: 1rem; 
 }
 
 .card {
