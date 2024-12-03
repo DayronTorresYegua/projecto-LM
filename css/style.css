@@ -18,18 +18,17 @@ img {
 
 /* General */
 body {
-    background-image: url("https://wallpapers.com/images/hd/elden-ring-fiery-gold-symbol-7j11znskboyqp9ab.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #333;
+    background-color: #6a98ba;
+    color: #ffffff;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
 h1, h2 {
     text-align: center;
-    color: #ffffff;
+    color: #000000;
 }
 
 h1 {
@@ -50,7 +49,6 @@ h2 {
     align-items: center;
     padding: 1rem 2rem; 
     background-color: #333;
-    opacity: 80%;
 }
 
 .cabecera__logo {
@@ -60,6 +58,7 @@ h2 {
 .cabecera__zona {
     display: flex;
     flex-wrap: wrap; 
+    gap: 1rem;
 }
 
 /* Botones */
@@ -91,7 +90,7 @@ h2 {
     background: white;
 }
 
-/* Contenido */
+
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -105,7 +104,6 @@ h2 {
 .card {
     width: 45%;
     background-color: #333;
-    opacity: 100%;
     border-radius: 0.3rem;
     margin: 1rem 0;
     padding: 1rem;
@@ -133,7 +131,6 @@ footer {
     text-align: center;
     padding: 1rem;
     background-color: #333;
-    opacity: 80%;
     width: 100%;
 }
 
