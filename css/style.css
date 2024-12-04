@@ -18,7 +18,7 @@ img {
 
 /* General */
 body {
-    background-color: #6a98ba;
+    background-color: #4a7c59;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@ body {
 
 h1, h2 {
     text-align: center;
-    color: #000000;
+    color: #ffffff;
 }
 
 h1 {
@@ -90,7 +90,6 @@ h2 {
     background: white;
 }
 
-
 .content {
     display: flex;
     flex-wrap: wrap;
@@ -126,7 +125,6 @@ h2 {
     color: #ffffff;
 }
 
-
 /* inicio sesion */
 
 .login_container {
@@ -154,12 +152,12 @@ h2 {
     background-color: #357ae8;
 }
 
-.login-form {
+.login_formulario {
     margin-top: 2rem;
     text-align: left;
 }
 
-.form-fieldset {
+.form_fieldset {
     border: none;
     margin-bottom: 1.5rem;
 }
@@ -185,6 +183,55 @@ h2 {
     background-color: #0b5038;
 }
 
+/* Bosses */
+
+.bosses_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.bosses_introduccion {
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+}
+
+.bosses_card {
+    width: 25%;
+    background-color: #333;
+    border-radius: 0.3rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+    transition: all ease 0.5s;
+}
+
+.bosses_subtitulo {
+    color: white;
+}
+
+.bosses_card:hover {
+    transform: scale(1.1);
+}
+
+.bosses_parrafo {
+    padding-bottom: 0.5rem;
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 2rem;
+}
+
+.bosses_img {
+    width: 70%;
+    border-radius: 0.3rem;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+
 /* Pie de página */
 footer {
     text-align: center;
@@ -195,10 +242,23 @@ footer {
     bottom: 0;
 }
 
-.footer_inicio_sesion {
+.footer_absolute {
     position: absolute;
 }
 
+.footer__boton {
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    transition: all ease 0.5s;
+    border: 0.1rem solid rgb(13, 105, 74);
+    background: rgb(23, 189, 134);
+}
+
+.footer__boton:hover {
+    color: rgb(23, 189, 134);
+    background: white;
+}
 
 
 /*  
