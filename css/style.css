@@ -227,6 +227,34 @@ h2 {
     margin: 0 auto;
 }
 
+/* Info bosses, armas */
+
+.info_split {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+.info_text {
+    flex: 1;
+    text-align: left;
+    line-height: 1.75;
+    color: #ffffff;
+}
+
+.info_card_concreto {
+    width: 50%;
+    background-color: #333;
+    border-radius: 0.3rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+    transition: all ease 0.5s;
+}
 
 /* Pie de página */
 footer {
