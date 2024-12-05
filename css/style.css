@@ -183,22 +183,22 @@ h2 {
     background-color: #0b5038;
 }
 
-/* Bosses */
+/* Info */
 
-.bosses_content {
+.info_content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
 }
 
-.bosses_introduccion {
+.info_introduccion {
     width: 100%;
     padding: 1rem;
     text-align: left;
 }
 
-.bosses_card {
+.info_card {
     width: 25%;
     background-color: #333;
     border-radius: 0.3rem;
@@ -208,22 +208,18 @@ h2 {
     transition: all ease 0.5s;
 }
 
-.bosses_subtitulo {
-    color: white;
-}
-
-.bosses_card:hover {
+.info_card:hover {
     transform: scale(1.1);
 }
 
-.bosses_parrafo {
+.info_parrafo {
     padding-bottom: 0.5rem;
     margin: 0 auto;
     width: 70%;
     padding-bottom: 2rem;
 }
 
-.bosses_img {
+.info_img {
     width: 70%;
     border-radius: 0.3rem;
     object-fit: cover;
